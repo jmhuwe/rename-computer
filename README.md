@@ -50,3 +50,9 @@ https://den.dev/blog/powershell-windows-notification/
 
 Github repo for this project can be found here:  
 https://github.com/jmhuwe/rename-computer
+
+## To do
+ * More in the field testing
+ * Better documentation
+ * Proper try-catch around actions
+ * Investigate passing error notifications back through Intune
