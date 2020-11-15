@@ -1,7 +1,8 @@
 # rename-computer.ps1
 
+## Introduction
 This script is designed to be pushed out to a batch of computers and rename
-them to <prefix><asset> based on their serial number.  The script gets the
+them to \[prefix\]\[asset\] based on their serial number.  The script gets the
 information from the $csv variable, which needs to be defined in a csv format.
 The design decision to include the csv information in the script instead of a
 separate csv file was made in order to easily deploy the script through
@@ -30,6 +31,7 @@ The script is controled by several administrator defined variables.
 Please read the comments above each variable for a more detailed description
 of each variable.
 
+## Disclaimer
 This script is provided as-is and Josh Huwe nor the Mississippi Department of
 Education make any warranty as to its effectiveness, nor that that it won't
 destroy your computers and burn them down to the ground.  Use at your own risk!
@@ -39,11 +41,12 @@ batches of computers to ensure the behavior is expected.
 If you run into issues, hit me up in email and I will make a best effort among
 my other commitments to help you figure out what is going wrong.
 
+## More Information
 For further reading of using Intune to push out PowerShell scripts  
 https://docs.microsoft.com/en-us/mem/intune/apps/intune-management-extension
 
 More information on the Show-Notification function  
- https://den.dev/blog/powershell-windows-notification/
+https://den.dev/blog/powershell-windows-notification/
 
 Github repo for this project can be found here:  
 https://github.com/jmhuwe/rename-computer
