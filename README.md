@@ -2,7 +2,7 @@
 
 ## Introduction
 This script is designed to be pushed out to a batch of computers and rename
-them to \[prefix\]\[asset\] based on their serial number.  The script gets the
+them to \[prefix\]\[tag\] based on their serial number.  The script gets the
 information from the $csv variable, which needs to be defined in a csv format.
 The design decision to include the csv information in the script instead of a
 separate csv file was made in order to easily deploy the script through
